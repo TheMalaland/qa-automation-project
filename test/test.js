@@ -1,5 +1,6 @@
 import { Builder, By, until } from 'selenium-webdriver';
 import { expect } from 'chai';
+
 describe('Google Search Tests', function () {
   this.timeout(30000);
   let driver;
