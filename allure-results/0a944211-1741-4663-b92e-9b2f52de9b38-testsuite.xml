@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1737149640745' stop='1737149654028'>
+    <name>Google Search Tests</name>
+    <title>Google Search Tests</title>
+    <test-cases>
+        <test-case start='1737149641769' status='passed' stop='1737149642611'>
+            <name>should perform a basic search and validate results</name>
+            <title>should perform a basic search and validate results</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737149642611' status='passed' stop='1737149643028'>
+            <name>should test URL matches</name>
+            <title>should test URL matches</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737149643028' status='passed' stop='1737149643460'>
+            <name>should test title matches</name>
+            <title>should test title matches</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737149643460' status='broken' stop='1737149653993'>
+            <name>should test special characters in the input field</name>
+            <title>should test special characters in the input field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Waiting for title to contain "!@#$%^&amp;*()"
+                Wait timed out after 10057ms</message>
+                <stack-trace>TimeoutError: Waiting for title to contain "!@#$%^&amp;*()"
+                Wait timed out after 10057ms
+                    at C:\Users\rodri\Documentos\qa-automation-project\node_modules\selenium-webdriver\lib\webdriver.js:928:22
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

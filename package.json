@@ -5,15 +5,19 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npx mocha --parallel"
+    "test": "npx mocha --reporter mocha-allure-reporter && npm run generate-report",
+    "generate-report": "allure generate allure-results --clean -o allure-report && npm run open-report",
+    "open-report": "allure open allure-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "allure-mocha": "^3.0.9",
     "chai": "^5.1.2",
     "chromedriver": "^131.0.5",
     "mocha": "^11.0.1",
+    "mocha-allure-reporter": "^1.4.0",
     "selenium-webdriver": "^4.27.0",
     "webdriver-manager": "^12.1.9"
   }
