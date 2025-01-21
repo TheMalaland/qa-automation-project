@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1737490829148' stop='1737490833479'>
+    <name>Website </name>
+    <title>Website </title>
+    <test-cases>
+        <test-case start='1737490830181' status='passed' stop='1737490831116'>
+            <name>should test URL matches</name>
+            <title>should test URL matches</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737490831116' status='passed' stop='1737490831406'>
+            <name>should open A/B Test variation</name>
+            <title>should open A/B Test variation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737490831406' status='passed' stop='1737490831572'>
+            <name>should add an element</name>
+            <title>should add an element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737490831573' status='passed' stop='1737490831755'>
+            <name>should add and remove an element</name>
+            <title>should add and remove an element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737490831755' status='passed' stop='1737490832009'>
+            <name>should add multiple elements</name>
+            <title>should add multiple elements</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737490832009' status='passed' stop='1737490832410'>
+            <name>should add and remove multiple elements</name>
+            <title>should add and remove multiple elements</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737490832410' status='passed' stop='1737490832505'>
+            <name>should verify the Add Element button is present</name>
+            <title>should verify the Add Element button is present</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737490832505' status='failed' stop='1737490832601'>
+            <name>should fail to find a non-existent element</name>
+            <title>should fail to find a non-existent element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected +0 to equal 1</message>
+                <stack-trace>AssertionError: expected +0 to equal 1
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/test.js:96:42)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737490832601' status='failed' stop='1737490832695'>
+            <name>should fail to verify the Add Element button is absent</name>
+            <title>should fail to verify the Add Element button is absent</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected WebElement{ …(3) } to be null</message>
+                <stack-trace>AssertionError: expected WebElement{ …(3) } to be null
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/test.js:103:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737490832695' status='failed' stop='1737490832793'>
+            <name>should fail to verify incorrect text</name>
+            <title>should fail to verify incorrect text</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'Add Element' to equal 'Incorrect Text'</message>
+                <stack-trace>AssertionError: expected 'Add Element' to equal 'Incorrect Text'
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/test.js:111:27)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737490832793' status='failed' stop='1737490832977'>
+            <name>should fail to verify incorrect number of elements</name>
+            <title>should fail to verify incorrect number of elements</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 3 to equal 5</message>
+                <stack-trace>AssertionError: expected 3 to equal 5
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/test.js:122:37)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737490832977' status='failed' stop='1737490833067'>
+            <name>should fail to verify incorrect URL</name>
+            <title>should fail to verify incorrect URL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'https://the-internet.herokuapp.com/ad…' to equal 'https://incorrect-url.com'</message>
+                <stack-trace>AssertionError: expected 'https://the-internet.herokuapp.com/ad…' to equal 'https://incorrect-url.com'
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/test.js:129:27)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737490833067' status='failed' stop='1737490833202'>
+            <name>should fail to verify incorrect class name</name>
+            <title>should fail to verify incorrect class name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'added-manually' to include 'incorrect-class'</message>
+                <stack-trace>AssertionError: expected 'added-manually' to include 'incorrect-class'
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/test.js:139:26)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737490833202' status='broken' stop='1737490833329'>
+            <name>should fail to verify incorrect element size</name>
+            <title>should fail to verify incorrect element size</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>deleteButton.getSize is not a function</message>
+                <stack-trace>TypeError: deleteButton.getSize is not a function
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/test.js:148:37)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737490833329' status='broken' stop='1737490833457'>
+            <name>should fail to verify incorrect element location</name>
+            <title>should fail to verify incorrect element location</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>deleteButton.getLocation is not a function</message>
+                <stack-trace>TypeError: deleteButton.getLocation is not a function
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/test.js:158:41)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

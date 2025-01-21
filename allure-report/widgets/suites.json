@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"9fd22ee3f5dac8b2c9c892bf5ef019b2","name":"Website ","statistic":{"failed":0,"broken":0,"skipped":0,"passed":7,"unknown":0,"total":7}}]}
+{"total":2,"items":[{"uid":"9fd22ee3f5dac8b2c9c892bf5ef019b2","name":"Website ","statistic":{"failed":6,"broken":2,"skipped":0,"passed":7,"unknown":0,"total":15}},{"uid":"af93928b0dd6b553debd0eb4d41e013a","name":"Basic Website Tests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5}}]}

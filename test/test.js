@@ -40,7 +40,6 @@ describe('Website ', function () { // Describe the test suite
     const currentUrl = await driver.getCurrentUrl();
     expect(currentUrl).to.equal('https://the-internet.herokuapp.com/abtest');
   });
- //testing the elements of the page
 
   it('should add an element', async function () {
     await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
@@ -88,6 +87,76 @@ describe('Website ', function () { // Describe the test suite
     await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
     const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
     expect(addButton).to.not.be.null;
+  });
+
+  // False positive: Expecting a non-existent element to be present
+  it('should fail to find a non-existent element', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const nonExistentElement = await driver.findElements(By.xpath("//button[text()='Non Existent Element']"));
+    expect(nonExistentElement.length).to.equal(1); // This will fail
+  });
+
+  // False negative: Expecting an element to be absent when it is present
+  it('should fail to verify the Add Element button is absent', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
+    expect(addButton).to.be.null; // This will fail
+  });
+
+  // Intentional failure: Expecting incorrect text
+  it('should fail to verify incorrect text', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
+    const buttonText = await addButton.getText();
+    expect(buttonText).to.equal('Incorrect Text'); // This will fail
+  });
+
+  // Intentional failure: Expecting incorrect number of elements
+  it('should fail to verify incorrect number of elements', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
+    for (let i = 0; i < 3; i++) {
+      await addButton.click();
+    }
+    const deleteButtons = await driver.findElements(By.className('added-manually'));
+    expect(deleteButtons.length).to.equal(5); // This will fail
+  });
+
+  // Intentional failure: Expecting incorrect URL
+  it('should fail to verify incorrect URL', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const currentUrl = await driver.getCurrentUrl();
+    expect(currentUrl).to.equal('https://incorrect-url.com'); // This will fail
+  });
+
+  // Intentional failure: Expecting incorrect class name
+  it('should fail to verify incorrect class name', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
+    await addButton.click();
+    const deleteButton = await driver.findElement(By.className('added-manually'));
+    const className = await deleteButton.getAttribute('class');
+    expect(className).to.include('incorrect-class'); // This will fail
+  });
+
+  // Intentional failure: Expecting incorrect element size
+  it('should fail to verify incorrect element size', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
+    await addButton.click();
+    const deleteButton = await driver.findElement(By.className('added-manually'));
+    const size = await deleteButton.getSize();
+    expect(size.width).to.equal(9999); // This will fail
+  });
+
+  // Intentional failure: Expecting incorrect element location
+  it('should fail to verify incorrect element location', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
+    await addButton.click();
+    const deleteButton = await driver.findElement(By.className('added-manually'));
+    const location = await deleteButton.getLocation();
+    expect(location.x).to.equal(9999); // This will fail
   });
 
 });
