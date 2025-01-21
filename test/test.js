@@ -26,32 +26,68 @@ describe('Website ', function () { // Describe the test suite
     await driver.quit();
   });
 
-  it('should perform a basic search and validate results', async function () {
-    await driver.get('https://the-internet.herokuapp.com/');
-    const searchBox = await driver.findElement(By.name('q'));
-    await searchBox.sendKeys('Mundial México 2026');
-    await searchBox.submit();
-  });
-
   it('should test URL matches', async function () {
-    await driver.get('https://www.google.com');
+    await driver.get('https://the-internet.herokuapp.com/');
     const currentUrl = await driver.getCurrentUrl();
-    expect(currentUrl).to.equal('https://www.google.com/');
+    expect(currentUrl).to.equal('https://the-internet.herokuapp.com/');
   });
 
-  it('should test title matches', async function () {
-    await driver.get('https://www.google.com');
-    const title = await driver.getTitle();
-    expect(title).to.equal('Google');
+  it('should open A/B Test variation', async function () {
+    await driver.get('https://the-internet.herokuapp.com/');
+    const abTestLink = await driver.findElement(By.linkText('A/B Testing'));
+    await abTestLink.click();
+    await driver.wait(until.urlIs('https://the-internet.herokuapp.com/abtest'), 10000);
+    const currentUrl = await driver.getCurrentUrl();
+    expect(currentUrl).to.equal('https://the-internet.herokuapp.com/abtest');
+  });
+ //testing the elements of the page
+
+  it('should add an element', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
+    await addButton.click();
+    const deleteButton = await driver.findElement(By.className('added-manually'));
+    expect(deleteButton).to.not.be.null;
   });
 
-  it('should test special characters in the input field', async function () {
-    await driver.get('https://www.google.com');
-    const searchBox = await driver.findElement(By.name('q'));
-    await searchBox.sendKeys('!@#$%^&*()');
-    await searchBox.submit();
-    await driver.wait(until.titleContains('!@#$%^&*()'), 10000);
+  it('should add and remove an element', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
+    await addButton.click();
+    const deleteButton = await driver.findElement(By.className('added-manually'));
+    await deleteButton.click();
+    const deleteButtons = await driver.findElements(By.className('added-manually'));
+    expect(deleteButtons.length).to.equal(0);
   });
 
+  it('should add multiple elements', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
+    for (let i = 0; i < 5; i++) {
+      await addButton.click();
+    }
+    const deleteButtons = await driver.findElements(By.className('added-manually'));
+    expect(deleteButtons.length).to.equal(5);
+  });
+
+  it('should add and remove multiple elements', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
+    for (let i = 0; i < 5; i++) {
+      await addButton.click();
+    }
+    let deleteButtons = await driver.findElements(By.className('added-manually'));
+    for (let deleteButton of deleteButtons) {
+      await deleteButton.click();
+    }
+    deleteButtons = await driver.findElements(By.className('added-manually'));
+    expect(deleteButtons.length).to.equal(0);
+  });
+
+  it('should verify the Add Element button is present', async function () {
+    await driver.get('https://the-internet.herokuapp.com/add_remove_elements/');
+    const addButton = await driver.findElement(By.xpath("//button[text()='Add Element']"));
+    expect(addButton).to.not.be.null;
+  });
 
 });

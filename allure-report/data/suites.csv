@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 21 13:59:11 CST 2025","Tue Jan 21 13:59:11 CST 2025","291","","Website ","","Website ","should open A/B Test variation","should open A/B Test variation",""
+"passed","Tue Jan 21 13:59:12 CST 2025","Tue Jan 21 13:59:12 CST 2025","98","","Website ","","Website ","should verify the Add Element button is present","should verify the Add Element button is present",""
+"passed","Tue Jan 21 13:59:11 CST 2025","Tue Jan 21 13:59:11 CST 2025","183","","Website ","","Website ","should add an element","should add an element",""
+"passed","Tue Jan 21 13:59:11 CST 2025","Tue Jan 21 13:59:12 CST 2025","331","","Website ","","Website ","should add multiple elements","should add multiple elements",""
+"passed","Tue Jan 21 13:59:12 CST 2025","Tue Jan 21 13:59:12 CST 2025","470","","Website ","","Website ","should add and remove multiple elements","should add and remove multiple elements",""
+"passed","Tue Jan 21 13:59:10 CST 2025","Tue Jan 21 13:59:11 CST 2025","951","","Website ","","Website ","should test URL matches","should test URL matches",""
+"passed","Tue Jan 21 13:59:11 CST 2025","Tue Jan 21 13:59:11 CST 2025","190","","Website ","","Website ","should add and remove an element","should add and remove an element",""

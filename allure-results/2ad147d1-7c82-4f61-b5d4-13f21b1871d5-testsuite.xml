@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1737489549216' stop='1737489552879'>
+    <name>Website </name>
+    <title>Website </title>
+    <test-cases>
+        <test-case start='1737489550336' status='passed' stop='1737489551287'>
+            <name>should test URL matches</name>
+            <title>should test URL matches</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737489551287' status='passed' stop='1737489551578'>
+            <name>should open A/B Test variation</name>
+            <title>should open A/B Test variation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737489551579' status='passed' stop='1737489551762'>
+            <name>should add an element</name>
+            <title>should add an element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737489551762' status='passed' stop='1737489551952'>
+            <name>should add and remove an element</name>
+            <title>should add and remove an element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737489551952' status='passed' stop='1737489552283'>
+            <name>should add multiple elements</name>
+            <title>should add multiple elements</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737489552283' status='passed' stop='1737489552753'>
+            <name>should add and remove multiple elements</name>
+            <title>should add and remove multiple elements</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737489552753' status='passed' stop='1737489552851'>
+            <name>should verify the Add Element button is present</name>
+            <title>should verify the Add Element button is present</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
