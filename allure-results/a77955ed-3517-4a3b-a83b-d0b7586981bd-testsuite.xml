@@ -1,0 +1,202 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1737585984080' stop='1737586004001'>
+    <name>Basic Website Tests Testing on firefox</name>
+    <title>Basic Website Tests Testing on firefox</title>
+    <test-cases>
+        <test-case start='1737585985958' status='passed' stop='1737585987465'>
+            <name>should load the correct URL</name>
+            <title>should load the correct URL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737585987465' status='passed' stop='1737585988264'>
+            <name>should add and remove elements</name>
+            <title>should add and remove elements</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737585988264' status='passed' stop='1737585989251'>
+            <name>should handle basic authentication</name>
+            <title>should handle basic authentication</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737585989251' status='passed' stop='1737585989517'>
+            <name>should handle broken images</name>
+            <title>should handle broken images</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737585989517' status='passed' stop='1737585989667'>
+            <name>should handle challenging DOM</name>
+            <title>should handle challenging DOM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737585989667' status='passed' stop='1737585990032'>
+            <name>should handle checkboxes</name>
+            <title>should handle checkboxes</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737585990032' status='passed' stop='1737585990394'>
+            <name>should handle context menu</name>
+            <title>should handle context menu</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737585990394' status='passed' stop='1737585990510'>
+            <name>should handle disappearing elements</name>
+            <title>should handle disappearing elements</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737585990510' status='failed' stop='1737585990890'>
+            <name>should handle drag and drop</name>
+            <title>should handle drag and drop</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'A' to equal 'B'</message>
+                <stack-trace>AssertionError: expected 'A' to equal 'B'
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/website.js:98:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737585990890' status='passed' stop='1737585991467'>
+            <name>should handle dropdown</name>
+            <title>should handle dropdown</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737585991467' status='failed' stop='1737585991704'>
+            <name>should handle dynamic content</name>
+            <title>should handle dynamic content</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 4 to equal 3</message>
+                <stack-trace>AssertionError: expected 4 to equal 3
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/website.js:114:35)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737585991704' status='broken' stop='1737585995127'>
+            <name>should handle dynamic controls</name>
+            <title>should handle dynamic controls</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The element with the reference 7a6356c1-101c-45fd-b63e-fc5a297dd11f is stale; either its node document is not the active document, or it is no longer connected to the DOM</message>
+                <stack-trace>StaleElementReferenceError: The element with the reference 7a6356c1-101c-45fd-b63e-fc5a297dd11f is stale; either its node document is not the active document, or it is no longer connected to the DOM
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737585995127' status='failed' stop='1737585995482'>
+            <name>should handle dynamic loading</name>
+            <title>should handle dynamic loading</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected '' to equal 'Hello World!'</message>
+                <stack-trace>AssertionError: expected '' to equal 'Hello World!'
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/website.js:132:31)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737585995482' status='passed' stop='1737586000833'>
+            <name>should handle file download</name>
+            <title>should handle file download</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737586000833' status='broken' stop='1737586001225'>
+            <name>should handle file upload</name>
+            <title>should handle file upload</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>File not found: /path/to/your/file.txt</message>
+                <stack-trace>InvalidArgumentError: File not found: /path/to/your/file.txt
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/website.js:148:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737586001225' status='passed' stop='1737586001475'>
+            <name>should handle floating menu</name>
+            <title>should handle floating menu</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737586001475' status='passed' stop='1737586002073'>
+            <name>should handle form authentication</name>
+            <title>should handle form authentication</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737586002073' status='passed' stop='1737586003223'>
+            <name>should handle frames</name>
+            <title>should handle frames</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737586003223' status='failed' stop='1737586003416'>
+            <name>should handle horizontal slider</name>
+            <title>should handle horizontal slider</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected '0' to equal '3.5'</message>
+                <stack-trace>AssertionError: expected '0' to equal '3.5'
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/website.js:189:26)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
