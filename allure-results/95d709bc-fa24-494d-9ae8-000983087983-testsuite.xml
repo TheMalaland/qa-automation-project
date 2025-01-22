@@ -1,0 +1,129 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1737587770932' stop='1737587770932'>
+    <name>Additional Website Tests Testing on firefox</name>
+    <title>Additional Website Tests Testing on firefox</title>
+    <test-cases>
+        <test-case start='1737587770932' status='passed' stop='1737587770932'>
+            <name>should handle infinite scroll</name>
+            <title>should handle infinite scroll</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770932' status='passed' stop='1737587770932'>
+            <name>should handle inputs</name>
+            <title>should handle inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770932' status='broken' stop='1737587770932'>
+            <name>should handle jQuery UI menus</name>
+            <title>should handle jQuery UI menus</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Element &lt;li id="ui-id-2" class="ui-menu-item"> could not be scrolled into view</message>
+                <stack-trace>ElementNotInteractableError: Element &lt;li id="ui-id-2" class="ui-menu-item"> could not be scrolled into view
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/additionalTest.js:44:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587770932' status='passed' stop='1737587770932'>
+            <name>should handle JavaScript alerts</name>
+            <title>should handle JavaScript alerts</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770932' status='broken' stop='1737587770932'>
+            <name>should handle JavaScript error</name>
+            <title>should handle JavaScript error</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>HTTP method not allowed</message>
+                <stack-trace>WebDriverError: HTTP method not allowed
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:531:11)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/additionalTest.js:65:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587770932' status='passed' stop='1737587770932'>
+            <name>should handle key presses</name>
+            <title>should handle key presses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770932' status='passed' stop='1737587770932'>
+            <name>should handle large and deep DOM</name>
+            <title>should handle large and deep DOM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770932' status='broken' stop='1737587770932'>
+            <name>should handle multiple windows</name>
+            <title>should handle multiple windows</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Unable to locate element: h3</message>
+                <stack-trace>NoSuchElementError: Unable to locate element: h3
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async toWireValue (node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+                    at async C:\Users\rodri\Documentos\qa-automation-project\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+                    at async forEachKey (node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+                    at async convertKeys (node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/additionalTest.js:90:31)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587770932' status='passed' stop='1737587770932'>
+            <name>should handle nested frames</name>
+            <title>should handle nested frames</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770932' status='passed' stop='1737587770932'>
+            <name>should handle notification messages</name>
+            <title>should handle notification messages</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770932' status='passed' stop='1737587770932'>
+            <name>should handle redirect links</name>
+            <title>should handle redirect links</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

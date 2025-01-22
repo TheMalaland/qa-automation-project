@@ -7,3 +7,12 @@ To run the project, follow these steps:
    npm test
 
 npx mocha test/test.js
+
+
+java -jar selenium-server-standalone.jar hub
+java -jar selenium-server-standalone.jar node --hub http://localhost:4444/grid/register
+
+
+
+allure generate allure-results --clean
+allure open allure-report

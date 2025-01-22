@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1737587780769' stop='1737587780769'>
+    <name>Advanced Website Tests Testing on chrome</name>
+    <title>Advanced Website Tests Testing on chrome</title>
+    <test-cases>
+        <test-case start='1737587780769' status='broken' stop='1737587780769'>
+            <name>"before all" hook for "should handle entry ad"</name>
+            <title>"before all" hook for "should handle entry ad"</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'quit')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'quit')
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:23:22)
+                    at process.processImmediate (node:internal/timers:478:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

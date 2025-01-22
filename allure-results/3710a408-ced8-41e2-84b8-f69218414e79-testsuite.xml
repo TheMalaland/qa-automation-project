@@ -1,0 +1,119 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1737587770935' stop='1737587770935'>
+    <name>Additional Website Tests Testing on MicrosoftEdge</name>
+    <title>Additional Website Tests Testing on MicrosoftEdge</title>
+    <test-cases>
+        <test-case start='1737587770935' status='passed' stop='1737587770935'>
+            <name>should handle infinite scroll</name>
+            <title>should handle infinite scroll</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770935' status='passed' stop='1737587770935'>
+            <name>should handle inputs</name>
+            <title>should handle inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770935' status='broken' stop='1737587770935'>
+            <name>should handle jQuery UI menus</name>
+            <title>should handle jQuery UI menus</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: MicrosoftEdge=132.0.2957.115)</message>
+                <stack-trace>ElementNotInteractableError: element not interactable
+                  (Session info: MicrosoftEdge=132.0.2957.115)
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async WebDriver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/additionalTest.js:44:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587770935' status='passed' stop='1737587770935'>
+            <name>should handle JavaScript alerts</name>
+            <title>should handle JavaScript alerts</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770935' status='broken' stop='1737587770935'>
+            <name>should handle JavaScript error</name>
+            <title>should handle JavaScript error</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'https://298279967.log.optimizely.com/…' to include 'Cannot read properties of undefined'</message>
+                <stack-trace>AssertionError: expected 'https://298279967.log.optimizely.com/…' to include 'Cannot read properties of undefined'
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/additionalTest.js:67:37)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587770935' status='passed' stop='1737587770935'>
+            <name>should handle key presses</name>
+            <title>should handle key presses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770935' status='passed' stop='1737587770935'>
+            <name>should handle large and deep DOM</name>
+            <title>should handle large and deep DOM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770935' status='passed' stop='1737587770935'>
+            <name>should handle multiple windows</name>
+            <title>should handle multiple windows</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770935' status='passed' stop='1737587770935'>
+            <name>should handle nested frames</name>
+            <title>should handle nested frames</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587770935' status='broken' stop='1737587770935'>
+            <name>should handle notification messages</name>
+            <title>should handle notification messages</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'Action unsuccesful, please try again\…' to include 'Action successful'</message>
+                <stack-trace>AssertionError: expected 'Action unsuccesful, please try again\…' to include 'Action successful'
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/additionalTest.js:107:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587770935' status='passed' stop='1737587770935'>
+            <name>should handle redirect links</name>
+            <title>should handle redirect links</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

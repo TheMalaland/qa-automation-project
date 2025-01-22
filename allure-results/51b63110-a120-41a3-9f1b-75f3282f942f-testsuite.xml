@@ -1,0 +1,344 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1737587780770' stop='1737587780770'>
+    <name>Advanced Website Tests Testing on firefox</name>
+    <title>Advanced Website Tests Testing on firefox</title>
+    <test-cases>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle entry ad</name>
+            <title>should handle entry ad</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected false to be true</message>
+                <stack-trace>AssertionError: expected false to be true
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:30:34)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle exit intent</name>
+            <title>should handle exit intent</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected false to be true</message>
+                <stack-trace>AssertionError: expected false to be true
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:43:34)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle file upload</name>
+            <title>should handle file upload</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>File not found: /path/to/your/file.txt</message>
+                <stack-trace>InvalidArgumentError: File not found: /path/to/your/file.txt
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:50:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle floating menu</name>
+            <title>should handle floating menu</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle form authentication</name>
+            <title>should handle form authentication</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle frames</name>
+            <title>should handle frames</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle horizontal slider</name>
+            <title>should handle horizontal slider</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected '0' to equal '3.5'</message>
+                <stack-trace>AssertionError: expected '0' to equal '3.5'
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:91:26)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle hovers</name>
+            <title>should handle hovers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle infinite scroll</name>
+            <title>should handle infinite scroll</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle inputs</name>
+            <title>should handle inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle jQuery UI menus</name>
+            <title>should handle jQuery UI menus</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Element &lt;li id="ui-id-2" class="ui-menu-item"> could not be scrolled into view</message>
+                <stack-trace>ElementNotInteractableError: Element &lt;li id="ui-id-2" class="ui-menu-item"> could not be scrolled into view
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:120:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle JavaScript alerts</name>
+            <title>should handle JavaScript alerts</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle JavaScript error</name>
+            <title>should handle JavaScript error</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>HTTP method not allowed</message>
+                <stack-trace>WebDriverError: HTTP method not allowed
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:531:11)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:141:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle key presses</name>
+            <title>should handle key presses</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle large and deep DOM</name>
+            <title>should handle large and deep DOM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle multiple windows</name>
+            <title>should handle multiple windows</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Unable to locate element: h3</message>
+                <stack-trace>NoSuchElementError: Unable to locate element: h3
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async toWireValue (node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+                    at async C:\Users\rodri\Documentos\qa-automation-project\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+                    at async forEachKey (node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+                    at async convertKeys (node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:166:31)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle nested frames</name>
+            <title>should handle nested frames</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle notification messages</name>
+            <title>should handle notification messages</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle redirect links</name>
+            <title>should handle redirect links</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle secure file download</name>
+            <title>should handle secure file download</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Unexpected promptUserAndPass dialog detected. Performed handler "dismiss". Dialog text: This site is asking you to sign in.</message>
+                <stack-trace>UnexpectedAlertOpenError: Unexpected promptUserAndPass dialog detected. Performed handler "dismiss". Dialog text: This site is asking you to sign in.
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:196:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle shadow DOM</name>
+            <title>should handle shadow DOM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Unable to locate element: my-web-component</message>
+                <stack-trace>NoSuchElementError: Unable to locate element: my-web-component
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:211:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle shifting content</name>
+            <title>should handle shifting content</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle slow resources</name>
+            <title>should handle slow resources</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle sortable data tables</name>
+            <title>should handle sortable data tables</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='passed' stop='1737587780770'>
+            <name>should handle status codes</name>
+            <title>should handle status codes</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle typos</name>
+            <title>should handle typos</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'This example demonstrates a typo bein…' to include 'Sometimes you\'ll see a typo'</message>
+                <stack-trace>AssertionError: expected 'This example demonstrates a typo bein…' to include 'Sometimes you\'ll see a typo'
+                    at Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:250:29)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle WYSIWYG editor</name>
+            <title>should handle WYSIWYG editor</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Unable to clear element that cannot be edited: &lt;body id="tinymce" class="mce-content-body mce-content-readonly"></message>
+                <stack-trace>InvalidElementStateError: Unable to clear element that cannot be edited: &lt;body id="tinymce" class="mce-content-body mce-content-readonly">
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:257:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1737587780770' status='broken' stop='1737587780770'>
+            <name>should handle geolocation</name>
+            <title>should handle geolocation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Unable to locate element: *[id="lat-value"]</message>
+                <stack-trace>NoSuchElementError: Unable to locate element: *[id="lat-value"]
+                    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:521:15)
+                    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:514:13)
+                    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:446:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+                    at async toWireValue (node_modules\selenium-webdriver\lib\webdriver.js:148:15)
+                    at async C:\Users\rodri\Documentos\qa-automation-project\node_modules\selenium-webdriver\lib\webdriver.js:194:16
+                    at async forEachKey (node_modules\selenium-webdriver\lib\webdriver.js:188:9)
+                    at async convertKeys (node_modules\selenium-webdriver\lib\webdriver.js:193:3)
+                    at async Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:742:22)
+                    at async Context.&lt;anonymous> (file:///C:/Users/rodri/Documentos/qa-automation-project/test/moreTests.js:267:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
